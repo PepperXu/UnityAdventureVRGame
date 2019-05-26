@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 001aeb3efde68a04382931e17df01c51, type: 3}
+  m_Name: SoldierMeele
+  m_EditorClassIdentifier: 
+  _json: '{"nodes":[{"type":"Entry","ID":"0","rect":{"posX":"455","posY":"25","width":"150","height":"30"}},{"type":"Observer","ID":"1","functionID":"20","conditionGroup":"Perception","rect":{"posX":"442.5","posY":"167.5","width":"175","height":"45"}},{"type":"Observer","ID":"2","functionID":"0","conditionGroup":"Perception","rect":{"posX":"752.5","posY":"167.5","width":"175","height":"45"}},{"type":"Observer","ID":"3","functionID":"7","conditionGroup":"Perception","rect":{"posX":"112.5","posY":"167.5","width":"175","height":"45"}},{"type":"Invoker","ID":"4","actionGroup":"Inventory","functionID":"0","executeSkill":"True","rect":{"posX":"22.5","posY":"237.5","width":"175","height":"45"}},{"type":"Invoker","ID":"5","actionGroup":"Motion","functionID":"4","executeSkill":"True","rect":{"posX":"212.5","posY":"237.5","width":"175","height":"45"}},{"type":"Observer","ID":"6","functionID":"0","conditionGroup":"Inventory","rect":{"posX":"22.5","posY":"297.5","width":"175","height":"45"}},{"type":"Invoker","ID":"7","actionGroup":"Inventory","functionID":"1","executeSkill":"True","rect":{"posX":"22.5","posY":"357.5","width":"175","height":"45"}},{"type":"Observer","ID":"8","functionID":"7","conditionGroup":"Perception","rect":{"posX":"212.5","posY":"367.5","width":"175","height":"45"}},{"type":"Invoker","ID":"9","actionGroup":"Skill","functionID":"cry","executeSkill":"True","rect":{"posX":"522.5","posY":"417.5","width":"175","height":"45"}},{"type":"Invoker","ID":"10","actionGroup":"Motion","functionID":"0","executeSkill":"True","rect":{"posX":"212.5","posY":"447.5","width":"175","height":"45"}},{"type":"Invoker","ID":"11","actionGroup":"Motion","functionID":"12","executeSkill":"True","rect":{"posX":"212.5","posY":"497.5","width":"175","height":"45"}},{"type":"Invoker","ID":"12","actionGroup":"Skill","functionID":"hit","executeSkill":"True","rect":{"posX":"212.5","posY":"547.5","width":"175","height":"45"}},{"type":"Observer","ID":"13","functionID":"0","conditionGroup":"Resources","rect":{"posX":"752.5","posY":"257.5","width":"175","height":"45"}},{"type":"Invoker","ID":"14","actionGroup":"Motion","functionID":"15","executeSkill":"True","rect":{"posX":"622.5","posY":"367.5","width":"175","height":"45"}},{"type":"Observer","ID":"15","functionID":"19","conditionGroup":"Perception","rect":{"posX":"892.5","posY":"327.5","width":"175","height":"45"}},{"type":"Observer","ID":"16","functionID":"1","conditionGroup":"General","rect":{"posX":"792.5","posY":"407.5","width":"175","height":"45"}},{"type":"Invoker","ID":"17","actionGroup":"Motion","functionID":"4","executeSkill":"True","rect":{"posX":"1002.5","posY":"407.5","width":"175","height":"45"}},{"type":"Invoker","ID":"18","actionGroup":"Motion","functionID":"14","executeSkill":"True","rect":{"posX":"672.5","posY":"477.5","width":"175","height":"45"}},{"type":"Invoker","ID":"19","actionGroup":"Motion","functionID":"15","executeSkill":"True","rect":{"posX":"912.5","posY":"477.5","width":"175","height":"45"}},{"type":"Observer","ID":"20","functionID":"7","conditionGroup":"Perception","rect":{"posX":"1042.5","posY":"167.5","width":"175","height":"45"}},{"type":"Invoker","ID":"21","actionGroup":"Motion","functionID":"4","executeSkill":"True","rect":{"posX":"952.5","posY":"227.5","width":"175","height":"45"}},{"type":"Invoker","ID":"22","actionGroup":"Motion","functionID":"12","executeSkill":"True","rect":{"posX":"1152.5","posY":"227.5","width":"175","height":"45"}},{"type":"Invoker","ID":"23","actionGroup":"Skill","functionID":"hit","executeSkill":"True","rect":{"posX":"1152.5","posY":"277.5","width":"175","height":"45"}}],"transitions":[{"startID":"0","endID":"1","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"1","endID":"3","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"1","endID":"2","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"2","endID":"13","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"2","endID":"20","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"3","endID":"4","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"3","endID":"5","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"4","endID":"6","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"6","endID":"7","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"8","endID":"10","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"8","endID":"5","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"10","endID":"11","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"11","endID":"12","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"13","endID":"14","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"13","endID":"15","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"14","endID":"9","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"15","endID":"17","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"15","endID":"16","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"16","endID":"19","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"16","endID":"18","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"20","endID":"21","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"20","endID":"22","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"22","endID":"23","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}}]}'
+  _nodes:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _transitions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

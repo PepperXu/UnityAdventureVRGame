@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 001aeb3efde68a04382931e17df01c51, type: 3}
+  m_Name: Robot
+  m_EditorClassIdentifier: 
+  _json: '{"version":"1.2","nodes":[{"type":"Entry","ID":"0","rect":{"posX":"475","posY":"45","width":"150","height":"30"}},{"type":"Observer","ID":"1","functionID":"9","functionName":"SeeEnemy","conditionGroup":"Perception","minTime":"0","maxTime":"0","rect":{"posX":"252.5","posY":"147.5","width":"175","height":"45"}},{"type":"Observer","ID":"2","functionID":"4","functionName":"HeardSomething","conditionGroup":"Perception","minTime":"0","maxTime":"0","rect":{"posX":"72.5","posY":"317.5","width":"175","height":"45"}},{"type":"Invoker","ID":"3","actionGroup":"Motion","functionID":"14","functionName":"WalkAroundWaypoints","executeSkill":"True","rect":{"posX":"-7.5","posY":"397.5","width":"175","height":"45"}},{"type":"Invoker","ID":"4","actionGroup":"Motion","functionID":"16","functionName":"WalkToTarget","executeSkill":"True","rect":{"posX":"382.5","posY":"447.5","width":"175","height":"45"}},{"type":"Invoker","ID":"5","actionGroup":"Inventory","functionID":"1","functionName":"IncreaseAlertPoint","executeSkill":"True","rect":{"posX":"272.5","posY":"337.5","width":"175","height":"45"}},{"type":"Invoker","ID":"6","actionGroup":"Inventory","functionID":"4","functionName":"SetStatusAlert","executeSkill":"True","rect":{"posX":"462.5","posY":"337.5","width":"175","height":"45"}},{"type":"Observer","ID":"7","functionID":"0","functionName":"AlertPointMax","conditionGroup":"General","minTime":"0","maxTime":"0","rect":{"posX":"352.5","posY":"287.5","width":"175","height":"45"}},{"type":"Observer","ID":"8","functionID":"5","functionName":"StatusAlert","conditionGroup":"General","minTime":"0","maxTime":"0","rect":{"posX":"462.5","posY":"87.5","width":"175","height":"45"}},{"type":"Observer","ID":"9","functionID":"9","functionName":"SeeEnemy","conditionGroup":"Perception","minTime":"0","maxTime":"0","rect":{"posX":"662.5","posY":"177.5","width":"175","height":"45"}},{"type":"Invoker","ID":"10","actionGroup":"Motion","functionID":"11","functionName":"RunToTarget","executeSkill":"True","rect":{"posX":"682.5","posY":"317.5","width":"175","height":"45"}},{"type":"Invoker","ID":"11","actionGroup":"Motion","functionID":"16","functionName":"WalkToTarget","executeSkill":"True","rect":{"posX":"572.5","posY":"247.5","width":"175","height":"45"}},{"type":"Invoker","ID":"12","actionGroup":"Motion","functionID":"5","functionName":"Idle","executeSkill":"True","rect":{"posX":"352.5","posY":"237.5","width":"175","height":"45"}},{"type":"Invoker","ID":"13","actionGroup":"Inventory","functionID":"3","functionName":"ResetAlertPoint","executeSkill":"True","rect":{"posX":"72.5","posY":"247.5","width":"175","height":"45"}},{"type":"Invoker","ID":"14","actionGroup":"Motion","functionID":"5","functionName":"Idle","executeSkill":"True","rect":{"posX":"382.5","posY":"397.5","width":"175","height":"45"}},{"type":"Loop","ID":"15","functionID":"0","functionName":"2","conditionGroup":"Time","reverse":"False","minTime":"2","maxTime":"2","rect":{"posX":"192.5","posY":"397.5","width":"175","height":"45"}},{"type":"Observer","ID":"16","functionID":"17","functionName":"TargetInCloseRange","conditionGroup":"Perception","minTime":"0","maxTime":"0","rect":{"posX":"772.5","posY":"247.5","width":"175","height":"45"}},{"type":"Invoker","ID":"17","actionGroup":"Skill","functionID":"KillEnemy","functionName":"KillEnemy","executeSkill":"True","rect":{"posX":"922.5","posY":"417.5","width":"175","height":"45"}},{"type":"Invoker","ID":"18","actionGroup":"Motion","functionID":"5","functionName":"Idle","executeSkill":"True","rect":{"posX":"872.5","posY":"317.5","width":"175","height":"45"}},{"type":"Invoker","ID":"19","actionGroup":"Motion","functionID":"6","functionName":"LookAtTarget","executeSkill":"True","rect":{"posX":"922.5","posY":"367.5","width":"175","height":"45"}},{"type":"Loop","ID":"20","functionID":"17","functionName":"TargetInCloseRange","conditionGroup":"Perception","reverse":"True","minTime":"0","maxTime":"0","rect":{"posX":"192.5","posY":"447.5","width":"175","height":"45"}},{"type":"Loop","ID":"21","functionID":"0","functionName":"2","conditionGroup":"Time","reverse":"False","minTime":"2","maxTime":"2","rect":{"posX":"192.5","posY":"497.5","width":"175","height":"45"}},{"type":"Invoker","ID":"22","actionGroup":"Motion","functionID":"5","functionName":"Idle","executeSkill":"True","rect":{"posX":"382.5","posY":"497.5","width":"175","height":"45"}},{"type":"Invoker","ID":"23","actionGroup":"Motion","functionID":"6","functionName":"LookAtTarget","executeSkill":"True","rect":{"posX":"582.5","posY":"397.5","width":"175","height":"45"}}],"transitions":[{"startID":"0","endID":"8","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"1","endID":"12","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"1","endID":"13","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"2","endID":"3","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"2","endID":"15","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"7","endID":"5","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"7","endID":"6","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"8","endID":"1","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"8","endID":"9","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"9","endID":"11","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"9","endID":"16","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"12","endID":"7","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"13","endID":"2","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"14","endID":"23","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"15","endID":"14","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.7","g":"0.1","b":"0.9"}},{"startID":"15","endID":"20","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"16","endID":"10","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"16","endID":"18","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"18","endID":"19","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"19","endID":"17","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"20","endID":"4","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.7","g":"0.1","b":"0.9"}},{"startID":"20","endID":"21","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"21","endID":"22","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.7","g":"0.1","b":"0.9"}}]}'
+  _nodes:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _transitions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

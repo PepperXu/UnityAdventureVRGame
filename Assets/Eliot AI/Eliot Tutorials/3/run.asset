@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 001aeb3efde68a04382931e17df01c51, type: 3}
+  m_Name: run
+  m_EditorClassIdentifier: 
+  _json: '{"nodes":[{"type":"Entry","ID":"0","rect":{"posX":"465","posY":"275","width":"150","height":"30"}},{"type":"Invoker","ID":"1","actionGroup":"Motion","functionID":"16","executeSkill":"True","rect":{"posX":"452.5","posY":"367.5","width":"175","height":"45"}}],"transitions":[{"startID":"0","endID":"1","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}}]}'
+  _nodes:
+  - {fileID: 0}
+  - {fileID: 0}
+  _transitions:
+  - {fileID: 0}

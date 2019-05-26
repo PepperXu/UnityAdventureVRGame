@@ -1,0 +1,26 @@
+All materials, software, source code included in this package are wholly owned by Danylo Shevchuk and Copyright © Danylo Shevchuk. No portion may be reproduced or distributed without express permission of the owner except as outlined here.
+
+LICENSING AGREEMENT:
+
+This licensing agreement applies if you did not purchase a license of this software through the Unity Asset Store. If you did purchase a license through the Unity Asset Store, the licencing agreement terms can be found at the following URL: http://unity3d.com/company/legal/as_terms
+
+If you did not purchase a license through either the Unity Asset Store at http://assetstore.unity3d.com or direct from the product's website at http://www.eliot-ai.com, you are not allowed to use or distribute this Software in any way and must delete the Software immediately.
+
+TERMS:
+
+- You are allowed to use this Software for personal and commercial use.
+- You are allowed to distribute and sell completed builds of games and software which are compiled with the Unity game engine and which incorporate this Software.
+- You may not resell or redistribute any portion of this Software as part of a Unity editor extension or other software development tool.
+- You may not resell or redistribute any portion of this Software as part of a complete or partial Unity project or in any way that exposes the libraries or source code to unlicensed 3rd parties.
+- You may not resell or redistribute any portion of source code in non-compiled form for any reason.
+- You may not resell or redistribute any portion of this Software except in the context of its inclusion in a completed build created with the Unity game engine.
+- You may not resell or redistribute any portion of Editor libraries or source code for any purpose.
+- You may not extract portions of the Software or source code for use in other projects, whether personal or commercial.
+- You may not reverse engineer, decompile, or disassemble the Software, except and only to the extent that such activity is expressly permitted under mandatory statutory applicable law.
+- You may not include the Software in any work that is licensed under the GNU General Public License or GNU Limited (Lesser) General Public License, or any other license with terms that include a requirement to extend such license to any modification or combined work and provide for the distribution of the combined or modified product’s source code upon demand so that Customer content becomes subject to the terms of such open source license; or (ii) any software that is a modification or derivative of any software licensed under the GNU General Public License, Limited (Lesser) Public License, or license with terms similar thereto so that Customer content become subject to the terms of such open source license.
+- At purchase, you are granted one (1) license to install and use this Software on one (1) computer at a time.
+- You are not allowed to sell or transfer your license to another party without express permission of Danylo Shevchuk.
+
+To the maximum extent permitted by applicable law, in no event will Danylo Shevchuk be liable for costs and expenses (including reasonable attorneys fees) or damages, whatsoever, whether direct, indirect, special, incidental, or consequential damages, whether arising under contract, tort (including negligence), strict liability, breach of warranty, misrepresentation, or otherwise, including without limitation, damages for loss of business profits, business interruption, loss of business information, or other pecuniary loss, arising out of the use of or inability to use the Software, or arising out of this agreement, even if Danylo Shevchuk or representatives of Danylo Shevchuk have been advised of the possibility of such damages.
+
+By using this Software, you acknowledge agreement with the terms outlined herein.
