@@ -23,7 +23,7 @@
 [Aa]ssets/Plugins/Editor/JetBrains*
 
 #Bakery files
-[Aa]ssets/Editor/x64/
+[Aa]ssets/Editor/x64/Bakery
 
 # Visual Studio cache directory
 .vs/
