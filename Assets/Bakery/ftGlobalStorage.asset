@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modifiedAssetPathList:
   - Assets/Bakery/examples/content/sponza/sponza.FBX
-  modifiedAssetPaddingHash: aaf8cc2e
+  modifiedAssetPaddingHash: d6a958ff
   modifiedMeshList: []
   modifiedMeshPaddingList: 
   modifiedAssets:
@@ -399,4 +399,5 @@ MonoBehaviour:
   assetList:
   - Assets/Bakery/examples/content/sponza/bush.FBX
   - Assets/Bakery/examples/content/floor_lamp.FBX
-  uvOverlapAssetList: 00000000ffffffff
+  - Assets/Bakery/examples/content/logolight.FBX
+  uvOverlapAssetList: 000000000000000000000000
