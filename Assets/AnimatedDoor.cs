@@ -2,22 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class AnimatedDoor : Trigger
 {
-    public Trigger[] triggers;
+    public Trigger[] stateTriggers;
     private Animator anim;
     public string KeyTag;
-    // Start is called before the first frame update
+
+
     void Start()
     {
-        anim = GetComponent<Animator>();   
+        anim = GetComponent<Animator>();
     }
+
 
     // Update is called once per frame
     void Update()
     {
         bool isTriggered = true;
-        foreach(Trigger t in triggers)
+        foreach(Trigger t in stateTriggers)
         {
             isTriggered = isTriggered && t.isTriggered;
         }

@@ -63,6 +63,7 @@ namespace Eliot.AgentComponents
 			if (_ragdollPref)
 			{
 				var ragdoll = GameObject.Instantiate(_ragdollPref, _agent.transform.position, _agent.transform.rotation) as GameObject;
+                
 				if (_onDeathSounds.Count > 0)
 				{
 					var audioSource = ragdoll.GetComponent<AudioSource>()

@@ -608,7 +608,7 @@ namespace Eliot.AgentComponents
 			_agentAnimation.Update();
 			_lastPingUpdate = Time.time;
 
-            Debug.Log(Status);
+            //Debug.Log(Status);
 		}
 
 		/// <summary>
