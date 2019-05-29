@@ -80,7 +80,7 @@ public class FirstPersenInteraction : MonoBehaviour
                     //lr.enabled = true;
                     if (pressedInteractable != null)
                     {
-                        pressedInteractable.PressUp();
+                        pressedInteractable = null;
                     }
                     else
                     {
